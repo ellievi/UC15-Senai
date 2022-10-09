@@ -1,0 +1,15 @@
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\bin\Debug\net6.0\UC 15 SENAI.exe
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\bin\Debug\net6.0\UC 15 SENAI.deps.json
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\bin\Debug\net6.0\UC 15 SENAI.runtimeconfig.json
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\bin\Debug\net6.0\UC 15 SENAI.dll
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\bin\Debug\net6.0\UC 15 SENAI.pdb
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.csproj.AssemblyReference.cache
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.AssemblyInfoInputs.cache
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.AssemblyInfo.cs
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.csproj.CoreCompileInputs.cache
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.dll
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\refint\UC 15 SENAI.dll
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.pdb
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\UC 15 SENAI.genruntimeconfig.cache
+C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC 15 SENAI\obj\Debug\net6.0\ref\UC 15 SENAI.dll
