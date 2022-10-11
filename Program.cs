@@ -6,14 +6,14 @@ PessoaFisica PFInstance = new PessoaFisica();
 PFInstance.cpf = "123456";
 PFInstance.nome = "Elisama";
 PFInstance.dataNascimento = new DateTime(2003, 04, 10, 12, 00,00);
-Console.WriteLine($"Olá, {PFInstance.nome}, de ano de nascimento {PFInstance.dataNascimento} e de CPF {PFInstance.cpf}.");
+Console.WriteLine($"Olá, {PFInstance.nome}, de data de nascimento {PFInstance.dataNascimento} e de CPF {PFInstance.cpf}.");
 
 // Método Calcular Imposto para Pessoa Física + Console
 float impostoPF = PFInstance.CalcularImposto(3600);
-Console.WriteLine($"O total do imposto a ser pago é: R${impostoPF}");
+Console.WriteLine($"Pessoa Física: O total do imposto a ser pago é: R${impostoPF}");
 
 float impostoPF2 = PFInstance.CalcularImposto(18000);
-Console.WriteLine($"O total do imposto a ser pago é: R${impostoPF2}");
+Console.WriteLine($"Pessoa Física: O total do imposto a ser pago é: R${impostoPF2}");
 
 
 
@@ -26,6 +26,6 @@ PJInstance.endereco = "Brasil";
 Console.WriteLine($"Olá, {PJInstance.nome}, de CNPJ {PJInstance.cnpj} e de localidade em {PJInstance.endereco}.");
 
 // Método Calcular Imposto para Pessoa Jurídica + Console
-float impostoPJ = PJInstance.CalcularImposto(3500.5f);
-Console.WriteLine($"O total do imposto a ser pago é: R${impostoPJ}");
+float impostoPJ = PJInstance.CalcularImposto(3500.3f);
+Console.WriteLine($"Pessoa Jurídica: O total do imposto a ser pago é: R${impostoPJ}");
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC 15 SENAI\\UC 15 SENAI.csproj": {}
+    "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\UC 15 SENAI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC 15 SENAI\\UC 15 SENAI.csproj": {
+    "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\UC 15 SENAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC 15 SENAI\\UC 15 SENAI.csproj",
+        "projectUniqueName": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\UC 15 SENAI.csproj",
         "projectName": "UC 15 SENAI",
-        "projectPath": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC 15 SENAI\\UC 15 SENAI.csproj",
+        "projectPath": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\UC 15 SENAI.csproj",
         "packagesPath": "C:\\Users\\Resid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC 15 SENAI\\obj\\",
+        "outputPath": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Resid\\AppData\\Roaming\\NuGet\\NuGet.Config"
