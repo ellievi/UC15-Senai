@@ -34,9 +34,40 @@ namespace UC_15_SENAI.classes
             }
         }
 
-        public float ValidarDataNascimento(DateTime dataNascimento)
+        public bool ValidarDataNascimento(DateTime dataNascimento)
         {
-            throw new NotImplementedException();
+            DateTime dataAtual = DateTime.Today;
+            double idade = (dataAtual - dataNascimento).TotalDays / 365;
+            Console.WriteLine(idade);
+
+            if (idade >= 10)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            } 
+        }
+
+        public bool ValidarDataNascimento(string dataNascimento)
+        {
+            // Saída do TryParse será o dataConvertida - que provém do dataNascimento-
+            if (DateTime.TryParse(dataNascimento, out DateTime dataConvertida))
+            {
+                DateTime dataAtual = DateTime.Today;
+                double idade = (dataAtual - dataConvertida).TotalDays / 365;
+                Console.WriteLine(idade);
+
+                if (idade >= 10)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                } 
+            }
         }
     }
 }
