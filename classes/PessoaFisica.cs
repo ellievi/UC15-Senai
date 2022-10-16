@@ -40,14 +40,14 @@ namespace UC_15_SENAI.classes
             double idade = (dataAtual - dataNascimento).TotalDays / 365;
             Console.WriteLine(idade);
 
-            if (idade >= 10)
+            if (idade >= 18)
             {
                 return true;
             }
             else
             {
                 return false;
-            } 
+            }
         }
 
         public bool ValidarDataNascimento(string dataNascimento)
@@ -59,15 +59,14 @@ namespace UC_15_SENAI.classes
                 double idade = (dataAtual - dataConvertida).TotalDays / 365;
                 Console.WriteLine(idade);
 
-                if (idade >= 10)
+                if (idade >= 18)
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                } 
+                else return false;
+
             }
+            return false;
         }
     }
 }
