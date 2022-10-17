@@ -28,3 +28,18 @@ C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC15-Senai\obj\
 C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.pdb
 C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.genruntimeconfig.cache
 C:\Users\Resid\OneDrive\Área de Trabalho\Projetos\Estudo\csharp\UC15-Senai\obj\Debug\net6.0\ref\UC 15 SENAI.dll
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\bin\Debug\net6.0\UC 15 SENAI.exe
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\bin\Debug\net6.0\UC 15 SENAI.deps.json
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\bin\Debug\net6.0\UC 15 SENAI.runtimeconfig.json
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\bin\Debug\net6.0\UC 15 SENAI.dll
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\bin\Debug\net6.0\UC 15 SENAI.pdb
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.csproj.AssemblyReference.cache
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.AssemblyInfoInputs.cache
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.AssemblyInfo.cs
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.csproj.CoreCompileInputs.cache
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.dll
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\refint\UC 15 SENAI.dll
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.pdb
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\UC 15 SENAI.genruntimeconfig.cache
+C:\Users\OI417414\Desktop\SENAI\Trabalhos\UC15\UC15-Senai\obj\Debug\net6.0\ref\UC 15 SENAI.dll

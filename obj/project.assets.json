@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Resid\\.nuget\\packages\\": {}
+    "C:\\Users\\OI417414\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\UC 15 SENAI.csproj",
+      "projectUniqueName": "C:\\Users\\OI417414\\Desktop\\SENAI\\Trabalhos\\UC15\\UC15-Senai\\UC 15 SENAI.csproj",
       "projectName": "UC 15 SENAI",
-      "projectPath": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\UC 15 SENAI.csproj",
-      "packagesPath": "C:\\Users\\Resid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Resid\\OneDrive\\Área de Trabalho\\Projetos\\Estudo\\csharp\\UC15-Senai\\obj\\",
+      "projectPath": "C:\\Users\\OI417414\\Desktop\\SENAI\\Trabalhos\\UC15\\UC15-Senai\\UC 15 SENAI.csproj",
+      "packagesPath": "C:\\Users\\OI417414\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OI417414\\Desktop\\SENAI\\Trabalhos\\UC15\\UC15-Senai\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Resid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\OI417414\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

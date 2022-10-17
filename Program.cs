@@ -33,18 +33,31 @@ Data em DateTime: {PfInstance.ValidarDataNascimento(data)}");
 
 
 // Instâncias Classe Pessoa Jurídica
-PessoaJuridica PJInstance = new PessoaJuridica();
+PessoaJuridica PjInstance = new PessoaJuridica();
 Endereco EndPj = new Endereco();
 
 // Atributos
-PJInstance.nome = "EllieVi";
-PJInstance.cnpj = "12345678910";
-float impostoPJ = PJInstance.CalcularImposto(3500.3f);
+PjInstance.nome = "EllieVi";
+PjInstance.cnpj = "12697614000153";
+PjInstance.razaoSocial = "Social";
+float impostoPj = PjInstance.CalcularImposto(3500.3f);
+PjInstance.cnpj = "82.895.660/0001-42";
+
+EndPj.logradouro = "Rua Nove";
+EndPj.numero = 9;
+EndPj.complemento = "Ao lado da rua dez";
+EndPj.endComercial = true;
+EndPj.cep = "91012-100";
+PjInstance.endereco = EndPj;
 
 // //Console
 Console.WriteLine(@$"
-
 PESSOA JURÍDICA:
-Nome: {PJInstance.nome}
-CNPJ: {PJInstance.cnpj} 
-Imposto: R${impostoPJ}");
+Nome: {PjInstance.nome}
+Razão Social: {PjInstance.razaoSocial} 
+Imposto: R${impostoPj}
+CEP: {PjInstance.endereco.cep}
+Logradouro: {PjInstance.endereco.logradouro}
+Complemento: {PjInstance.endereco.complemento}
+End.Comercial? {PjInstance.endereco.endComercial}
+CNPJ: {PjInstance.cnpj} - Válido: {PjInstance.ValidarCnpj(PjInstance.cnpj)}");
