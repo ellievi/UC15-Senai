@@ -5,7 +5,7 @@ PessoaFisica PfInstance = new PessoaFisica();
 Endereco EndPf = new Endereco();
 
 // Atributos
-PfInstance.cpf = "123456";
+PfInstance.cpf = "123.456.789-10";
 PfInstance.nome = "Elisama";
 float impostoPf = PfInstance.CalcularImposto(18000);
 DateTime data = new DateTime(2003, 04, 10);
@@ -14,7 +14,7 @@ EndPf.logradouro = "Rua Dez";
 EndPf.numero = 10;
 EndPf.complemento = "Ao lado da rua nove";
 EndPf.endComercial = true;
-EndPf.cep = "12345-678";
+EndPf.cep = "12345-67";
 PfInstance.endereco = EndPf;
 
 // CONSOLE
