@@ -41,8 +41,11 @@ namespace UC_15_SENAI.classes{
         }
 
         public bool ValidarDataNascimento(string dataNascimento){
+
+            DateTime dataConvertida;
             // Saída do TryParse será o dataConvertida - que provém do dataNascimento-
-            if (DateTime.TryParse(dataNascimento, out DateTime dataConvertida)){
+            if (DateTime.TryParse(dataNascimento, out dataConvertida)){
+
                 DateTime dataAtual = DateTime.Today;
                 double idade = (dataAtual - dataConvertida).TotalDays / 365;
                 Console.WriteLine(idade);
