@@ -13,6 +13,7 @@ Console.WriteLine(@$"
 |    SISTEMA DE CADASTROS     |
 |         BEM VINDO!          |
 ==============================");
+Thread.Sleep(2300);
 
 string? opcao;
 do
@@ -94,7 +95,9 @@ do
 
 
                         Console.WriteLine($"Rendimento mensal (somente números):");
-                        //PfInstance.rendimento = float.Parse(Console.ReadLine());
+
+                        // MÉTODO COM ERRO
+                        PfInstance.rendimento = float.Parse(Console.ReadLine());
 
 
                         Console.WriteLine($"Logradouro:");
@@ -126,6 +129,7 @@ do
                         listPf.Add(PfInstance);
 
                         Console.WriteLine("Cadastro Gravado.");
+                        Thread.Sleep(2000);
 
                         break;
 
@@ -140,9 +144,11 @@ do
                         CPF: {eachPerson.cpf}
                         Nome: {eachPerson.nome}
                         Endereço: {eachPerson.endereco.cep}, {eachPerson.endereco.logradouro}, {eachPerson.endereco.complemento}
-                        
+                        Data de nascimento: {eachPerson.dataNascimento.ToString("d")}
+                        Imposto: {eachPerson.CalcularImposto(eachPerson.rendimento).ToString("C")}
                         End.Comercial? {eachPerson.endereco.endComercial}");
                         }
+                        
                         Console.WriteLine($"Aperte ENTER para continuar");
                         Console.ReadLine();
                         } 
