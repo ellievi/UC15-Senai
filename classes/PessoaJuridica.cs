@@ -1,10 +1,13 @@
 using System.Text.RegularExpressions;
+using UC_15_SENAI.cl;
 using UC_15_SENAI.interfaces;
 namespace UC_15_SENAI.classes{
     public class PessoaJuridica : Pessoa, InPessoaJuridica{
         public string? cnpj {get; set;}
 
         public string? razaoSocial {get; set;}
+
+        public string caminho {get; private set;} = "Database/PessoaJuridica.csv";
 
         public override float CalcularImposto(float rendimento){
              if (rendimento <= 3000){
@@ -44,5 +47,33 @@ namespace UC_15_SENAI.classes{
 
             return false;
         }
+
+        public void Inserir (PessoaJuridica pj) {
+
+            Utils.VerifyPath(caminho);
+            string[] pjValue = {$"{pj.nome}, {pj.cnpj}, {pj.razaoSocial}"};
+            File.AppendAllLines(caminho, pjValue);
+        }
+
+        public List<PessoaJuridica> LerArquivo(){
+        
+            List<PessoaJuridica> listPj = new List<PessoaJuridica>();
+            string[] linhas = File.ReadAllLines(caminho);
+
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+                
+                PessoaJuridica cadaPj = new PessoaJuridica();
+                cadaPj.nome = atributos[0];
+                cadaPj.cnpj = atributos[1];
+                cadaPj.razaoSocial = atributos[2];
+
+                listPj.Add(cadaPj);
+            }
+            return listPj;
+            
+        }
+
     }
 }

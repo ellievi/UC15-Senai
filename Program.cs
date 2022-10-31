@@ -3,6 +3,7 @@ using UC_15_SENAI.classes;
 
 // Instâncias das classes - Pessoa Física e Endereço
 PessoaFisica PfInstance = new PessoaFisica();
+PessoaFisica metodosPf = new PessoaFisica();
 Endereco EndPf = new Endereco();
 
 List<PessoaFisica> listPf = new List<PessoaFisica>();
@@ -96,8 +97,8 @@ do
 
                         Console.WriteLine($"Rendimento mensal (somente números):");
 
-                        // MÉTODO COM ERRO
-                        PfInstance.rendimento = float.Parse(Console.ReadLine());
+
+                        //metodosPf.rendimento = (int)float.Parse(Console.ReadLine());
 
 
                         Console.WriteLine($"Logradouro:");
@@ -128,6 +129,11 @@ do
 
                         listPf.Add(PfInstance);
 
+                        using (StreamWriter sw = new StreamWriter($"{PfInstance.nome}.txt"))
+                        {
+                            sw.WriteLine(PfInstance.nome);
+                        }
+
                         Console.WriteLine("Cadastro Gravado.");
                         Thread.Sleep(2000);
 
@@ -135,27 +141,17 @@ do
 
 
                     case "2":
-                        Console.Clear();
+                        using (StreamReader sr = new StreamReader("Elisama.txt"))
+                        {
 
-                        if (listPf.Count > 0){
-                            foreach (PessoaFisica eachPerson in listPf)
+                            string linha;
+
+                            while ((linha = sr.ReadLine()) != null)
                             {
-                                Console.WriteLine(@$"
-                        CPF: {eachPerson.cpf}
-                        Nome: {eachPerson.nome}
-                        Endereço: {eachPerson.endereco.cep}, {eachPerson.endereco.logradouro}, {eachPerson.endereco.complemento}
-                        Data de nascimento: {eachPerson.dataNascimento.ToString("d")}
-                        Imposto: {eachPerson.CalcularImposto(eachPerson.rendimento).ToString("C")}
-                        End.Comercial? {eachPerson.endereco.endComercial}");
-                        }
-                        
-                        Console.WriteLine($"Aperte ENTER para continuar");
-                        Console.ReadLine();
-                        } 
-                        else {
-                            Console.Clear();
-                            Console.WriteLine($"Lista vazia, cadastre uma nova pessoa física.");
-                            Thread.Sleep(2000);
+                                Console.WriteLine(linha);
+                            }
+                            Console.WriteLine($"Tecle ENTER para continuar");
+                            Console.ReadLine();
                         }
 
                         break;
@@ -186,6 +182,7 @@ do
 
             // Instâncias Classe Pessoa Jurídica
             PessoaJuridica PjInstance = new PessoaJuridica();
+            PessoaJuridica metodosPj = new PessoaJuridica();
             Endereco EndPj = new Endereco();
 
             // Atributos
@@ -200,22 +197,33 @@ do
             EndPj.complemento = "Ao lado da rua dez";
             EndPj.endComercial = true;
             EndPj.cep = "91012-100";
+
             PjInstance.endereco = EndPj;
+            metodosPj.Inserir(PjInstance);
 
-            //Console
-            Console.WriteLine(@$"
-        PESSOA JURÍDICA:
-        Nome: {PjInstance.nome}
-        Razão Social: {PjInstance.razaoSocial} 
-        Imposto: R${impostoPj}
-        CEP: {PjInstance.endereco.cep}
-        Logradouro: {PjInstance.endereco.logradouro}
-        Complemento: {PjInstance.endereco.complemento}
-        End.Comercial? {PjInstance.endereco.endComercial}
-        CNPJ: {PjInstance.cnpj} - Válido: {PjInstance.ValidarCnpj(PjInstance.cnpj)}");
+            /* Console
+;
+        */
 
-            Console.WriteLine($"Aperte Enter para sair");
+            List<PessoaJuridica> exibirListaPj = metodosPj.LerArquivo();
+            foreach (PessoaJuridica cadaItem in exibirListaPj)
+            {
+                Console.Clear();
+                Console.WriteLine(@$"
+                PESSOA JURÍDICA:
+                Nome: {PjInstance.nome}
+                Razão Social: {PjInstance.razaoSocial} 
+                Imposto: R${impostoPj}
+                CEP: {PjInstance.endereco.cep}
+                Logradouro: {PjInstance.endereco.logradouro}
+                Complemento: {PjInstance.endereco.complemento}
+                End.Comercial? {PjInstance.endereco.endComercial}
+                CNPJ: {PjInstance.cnpj} - Válido: {PjInstance.ValidarCnpj(PjInstance.cnpj)}");
+            }
+
+            Console.WriteLine($"Aperte ENTER para continuar");
             Console.ReadLine();
+
             break;
 
 
@@ -230,4 +238,4 @@ do
     }
 } while (opcao != "0");
 
-Tela.LoadingScreen("Finalizando");
+//Utils.LoadingScreen("Finalizando");
