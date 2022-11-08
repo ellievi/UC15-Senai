@@ -3,7 +3,8 @@ Projeto de aprendizagem de código em C# visando efetuar cadastros de pessoas f�
 
 Funcionalidades:
 - Cadastrar;
-- Listar o cadastro em um arquivo txt ou scv;
+- Listar as informações do cadastro;
+- Guardar as informações em um arquivo txt ou csv;
 - Efetuar um novo cadastro.
 
 Tecnologias utilizadas: 
